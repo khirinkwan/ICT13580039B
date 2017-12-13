@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580039B.StackPage"
+    BackgroundColor="Fuchsia">
+    <ScrollView
+        Orientation="Vertical">
+        <StackLayout
+            Orientation="Vertical"
+            BackgroundColor="#CD5C5C">
+            <Button
+                Text="Button"
+                BackgroundColor="#FFA07A" />
+            <Button
+                Text="Button"
+                BackgroundColor="#FA8072" />
+            <Button
+                Text="Button"
+                BackgroundColor="#FFDAB9" />
+            <ScrollView
+                Orientation="Horizontal">
+                <StackLayout
+                    Orientation="Horizontal"
+                    BackgroundColor="White"
+                    HeightRequest="100">
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#FFA07A"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#FA8072"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#FFDAB9"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#FFDAB2"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="Maroon"
+                        WidthRequest="100" />
+                </StackLayout>
+            </ScrollView>
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
